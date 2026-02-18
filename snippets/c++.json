@@ -1,0 +1,28 @@
+{
+	"include guard": {
+		"prefix": "hpp",
+		"body": [
+			"#ifndef $1_HPP",
+			"# define $1_HPP",
+			"",
+			"$0",
+			"",
+			"#endif //$1_HPP"
+		]
+	},
+	"canonical orthodox class": {
+		"prefix": "ocl",
+		"body": [
+			"class $1",
+			"{",
+			"\tprivate:",
+			"\t\t$0",
+			"\tpublic:",
+			"\t\t$1(void);",
+			"\t\t$1($1 const& toCopy);",
+			"\t\t~$1(void);",
+			"\t\t$1&\toperator=($1 const& toCopy);",
+			"};"
+		]
+	}
+}

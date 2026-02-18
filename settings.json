@@ -1,0 +1,69 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"format_on_save": "off",
+ "zoomed_padding": true,
+ "active_pane_modifiers": {
+  "border_size": 0.0,
+  "inactive_opacity": 1.0
+ },
+ "window_decorations": "client",
+ "bottom_dock_layout": "contained",
+ "tabs": {
+  "file_icons": false,
+  "git_status": false
+ },
+ "tab_bar": {
+  "show": true
+ },
+ "title_bar": {
+  "show_menus": false,
+  "show_user_menu": true,
+  "show_sign_in": true,
+  "show_onboarding_banner": true,
+  "show_project_items": true,
+  "show_branch_name": true,
+  "show_branch_icon": false
+ },
+ "diagnostics": {
+  "button": true
+ },
+ "status_bar": {
+  "cursor_position_button": true
+ },
+ "project_panel": {
+  "button": true
+ },
+ "collaboration_panel": {
+  "button": false
+ },
+ "outline_panel": {
+  "button": true
+ },
+ "relative_line_numbers": "enabled",
+ "languages": {
+  "C++": {
+   "format_on_save": "off"
+  }
+ },
+ "autosave": "on_focus_change",
+ "vim_mode": true,
+ "buffer_font_weight": 400.0,
+ "cursor_shape": "bar",
+ "icon_theme": "Zed (Default)",
+ "show_whitespaces": "boundary",
+	"hard_tabs": true,
+	"ui_font_size": 16,
+	"buffer_font_size": 15,
+	"theme": {
+  "mode": "system",
+  "light": "Gruvbox Light Soft",
+  "dark": "Gruvbox Dark Soft"
+ },
+}
